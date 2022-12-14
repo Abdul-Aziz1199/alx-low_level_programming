@@ -1,16 +1,29 @@
-#include <stdio.h>
-
+#include "holberton.h"
+/**
+ * main-entry point
+ *
+ * return: always 0 (success)
+ */
 int main(void)
 {
-int i;
-for (i=0; i<3; i++)
-{
-	putchar (i)
+	char *sh ="Holberton";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	
+	_putchar('\n');
+
+	return (0);
+
 }
 
-   putchar ('\n');
-   return (0);
 
 
 
-}	
+
+
+
+}		
