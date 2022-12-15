@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 #include "main.h"
 /**
  * main-entry point
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char *sh ="_putchar";
+	char *sh ="alx engineering";
 
 	while (*sh)
 	{
