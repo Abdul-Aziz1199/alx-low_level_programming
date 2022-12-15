@@ -1,5 +1,5 @@
-
-#include "main.h"
+#ifndef _main_h_
+#define _main_h_
 /**
  * main-entry point
  *
@@ -7,17 +7,18 @@
  */
 int main(void)
 {
-	char *sh ="alx engineering";
+	char(ch)  ="alx engineering";
 
-	while (*sh)
+
+	while 
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(ch);
+		ch++;
 	}
 	
 	_putchar('\n');
 
-	return (0);
+#endif
 
 }
 
