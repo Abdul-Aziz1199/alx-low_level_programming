@@ -1,5 +1,5 @@
  #include <stdio.h>
- #include "main.h"
+ #include <iostream>
 
 /**
  * print_alphabet- a function that print alphabet in lower case.
@@ -18,5 +18,7 @@ void print_alphabet(void)
 	}
 	
 	_putchar( '\n');
+	
+	Return (0);
 
 }	
