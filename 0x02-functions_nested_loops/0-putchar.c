@@ -5,22 +5,10 @@
  *
  * return: always 0.
  */
-int main(void)
-{
-	char(ch)  ="alx engineering";
-
-
-	while 
-	{
-		_putchar(ch);
-		ch++;
-	}
-	
-	_putchar('\n');
+int _putchar(char);
 
 #endif
 
-}
 
 
 
@@ -28,4 +16,5 @@ int main(void)
 
 
 
-}		
+
+		
