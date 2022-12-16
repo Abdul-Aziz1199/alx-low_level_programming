@@ -1,6 +1,6 @@
 #include <ctype.h>
 #include <stdio.h>
-
+int main (void);
 int _isupper(int c) {
 
 char ch = 'A';
@@ -8,7 +8,7 @@ char ch = 'A';
 		printf("\nEntered character is upper case");
      else
 	     printf("\nEntered character is not upper case");
-      return(1);    
+      return(0);    
 
 
 
