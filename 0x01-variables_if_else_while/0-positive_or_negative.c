@@ -32,30 +32,30 @@ n = rand() - RAND_MAX / 2;
 
     if (n > 0)
 
-	printf("%i is positive\n", n);
+	printf("%iis positive\n", n);
 
-    else if (n < 0)
+         else if (n < 0)
 
-	printf("%i is negative\n", n);
+	    printf("%iis negative\n", n);
 
-    else
+             else
 
-										       printf("%i is zero\n", n);
+										                   printf("%iis zero\n", n);
 
-	return (0);
+	            return (0);
 
-										  if (n > 0)
+										                if (n > 0)
 
-										     printf("%i is positive\n", n);
+										                   printf("%iis positive\n", n);
 
-										  else if (n < 0)
+										                        else if (n < 0)
 
-																				    printf("%i is negative\n", n);
+																				                            printf("%iis negative\n", n);
 
-										  else
+										                        else
 
-																				   printf("%i is zero\n", n);
+																				                                printf("%iis zero\n", n);
 
-																					return (0);
+																					                              return (0);
 
 }
