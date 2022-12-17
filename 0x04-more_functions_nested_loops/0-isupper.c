@@ -1,16 +1,28 @@
 #include <ctype.h>
 #include <stdio.h>
-int main (void);
-int _isupper(int c) {
-
-char ch = 'A';
-	if (isupper (ch))
-		printf("\nEntered character is upper case");
-     else
-	     printf("\nEntered character is not upper case");
-      return(0);    
 
 
 
+/**
+ *
+ *  * _isupper - function that checks for uppercase characters
+ *
+ *   * @c: int type number
+ *
+ *    * Return: 1 if uppercase, else 0
+ *
+ *     */
+
+int _isupper(int c)
+
+{
+
+		if (c >= 'A' && c <= 'Z')
+
+					return (1);
+
+
+
+			return (0);
 
 }
