@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+#include <time.h>
+
+#include <stdlib.h>
+
 int main(void)
 
 {
@@ -26,7 +30,7 @@ int main(void)
 
 					printf("%i is zero\n", n);
 
-					retunr (0);
+					return (0);
 
 				if (n > 0)
 
